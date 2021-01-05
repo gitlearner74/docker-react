@@ -3,7 +3,7 @@ FROM node:alpine
 
 # copy local
 
-WORKDIR /usr/app
+WORKDIR '/usr/app'
 
 COPY ./package*.json ./
 
